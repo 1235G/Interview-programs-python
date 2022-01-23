@@ -1,0 +1,9 @@
+principle = int(input("enter the number1"))
+rate = int(input("enter the number 2"))
+time  = int(input("enter the number1"))
+
+Amount = principle * (pow((1 + rate / 100), time))
+
+CI = Amount - principle
+
+print("Compound interest is", CI)
