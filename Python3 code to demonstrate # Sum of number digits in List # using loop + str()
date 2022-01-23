@@ -1,0 +1,11 @@
+list1 = [22, 27, 98, 34]
+
+
+b = []
+for i in list1:
+    sum1 = 0
+    for j in str(i):
+        sum1 += int(j)
+        b.append(sum1)
+        
+print ("List Integer are : " + str(b))
