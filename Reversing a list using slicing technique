@@ -1,0 +1,6 @@
+def Reverse(list1):
+     new_lst = lst[::-1]
+     return new_lst
+    
+list1 = [100, 111, 122, 131, 142, 154]
+print(Reverse(list1))
