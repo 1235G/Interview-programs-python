@@ -1,0 +1,6 @@
+list1 = [12, 25, 33]
+list2 = [3, 2, 4]
+result = 1
+for x in myList:
+    result = result * x
+    print(result)
