@@ -1,0 +1,7 @@
+p = int(input("enter the number1"))
+t = int(input("enter the number 2"))
+r = int(input("enter the number1"))
+
+si = (p * t * r)/100
+
+print('The Simple Interest is', si)
