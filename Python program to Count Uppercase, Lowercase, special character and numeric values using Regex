@@ -1,0 +1,14 @@
+import re
+
+
+string =  input("enter the sting")
+
+uppercase = re.findall(r"[A-Z]", string)
+lowercase = re.findall(r"[a-z]", string)
+numerical = re.findall(r"[0-9]", string)
+special = re.findall(r"[, .!?]", string)
+
+print("The  uppercase characters is", len(uppercase))
+print("The lowercase characters is", len(lowercase))
+print("The  numerical characters is", len(numerical))
+print("The special characters is", len(special))
