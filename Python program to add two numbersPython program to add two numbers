@@ -1,0 +1,8 @@
+number1 = int(input("enter the number1"))
+number2 = int(input("enter the number 2"))
+
+sum1 = number1 + number2
+
+
+print("sum of elements are : ",sum1)
+
