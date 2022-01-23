@@ -1,0 +1,7 @@
+import re
+
+a = input("enter the string")
+numbers = re.findall('\d+',a)
+numbers = map(int,numbers)
+print(max(numbers))
+
