@@ -1,0 +1,7 @@
+list1 = [ 1, 5, 3, 2 , 8 ]
+
+count = 0
+
+for i in str(list1):
+    count = count + 1
+print ("Length of list is : " + str(count))
