@@ -1,0 +1,9 @@
+import re
+
+a = input("enter the string")
+
+b = re.findall('[A-Z][a-z]*', a)
+
+for i in range(0,len(b)):
+    b[i]=b[i][0].lower()+b[i][1:]
+    print(' '.join(b))
