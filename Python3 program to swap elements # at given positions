@@ -1,0 +1,10 @@
+def swapPositions(list1, postion1, position2):
+    list[position1], list[position2] = list[position2], list[position1]
+    return list
+
+List = [23, 65, 19, 90]
+position1 = int(input("enter the integer"))
+position2 = int(input("enter the integer"))
+
+
+print(swapPositions(List, position1-1, position2-1)
