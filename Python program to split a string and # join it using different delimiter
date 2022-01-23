@@ -1,0 +1,18 @@
+def split_string(string):
+    b = string.split(' ')
+    return list_string
+
+def join_string(list_string):
+    string = '-'.join(list_string)
+    return string
+
+
+string = input("enter the string")
+
+
+a = split_string(string)
+print(a)
+
+
+b = join_string(b)
+print(b)
