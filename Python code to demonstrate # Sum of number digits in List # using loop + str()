@@ -1,0 +1,15 @@
+test_list = [12, 67, 98, 34]
+
+
+print("The original list is : " + str(test_list))
+
+
+c = []
+for i in test_list:
+    b = 0
+    for j in str(i):
+        b += int(j)
+    c.append(b)
+
+
+print ("List Integer Summation : " + str(c))
