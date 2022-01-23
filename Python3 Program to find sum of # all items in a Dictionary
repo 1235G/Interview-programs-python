@@ -1,0 +1,10 @@
+
+def returnSum(myDict):
+    list1 = []
+    for i in myDict:
+        list1.append(myDict[i])
+        final = sum(list1)
+        return final
+
+dict = {'gokul': 100, 'ravi':200, 'c':300}
+print("Sum :", returnSum(dict))
