@@ -1,0 +1,7 @@
+r = int(input("enter the number "))
+
+PI = 3.142
+
+c = (PI * (r*r))
+
+print("Area of the circle",c);
