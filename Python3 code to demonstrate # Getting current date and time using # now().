@@ -1,0 +1,7 @@
+import datetime
+
+current_time = datetime.datetime.now()
+	
+
+print (" greenwich meridian is : ", end = "")
+print (current_time)
