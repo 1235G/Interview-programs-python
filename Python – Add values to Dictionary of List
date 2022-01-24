@@ -1,0 +1,11 @@
+
+from collections import defaultdict
+
+
+input = [('bhanu', 'html'),('bhanu', 'php'),('suma', 'python'),('rasmi', 'java'),('suma', 'html/csscss')]
+
+
+data = defaultdict(list)
+for key, value in input:
+	data[key].append(value)
+print(data.items())
