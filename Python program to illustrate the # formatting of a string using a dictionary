@@ -1,0 +1,4 @@
+
+value = {"Company": "GeeksforGeeks",
+		"Department": "Computer Science"}
+print("{Company} is a {Department} Portal.".format(**value))
