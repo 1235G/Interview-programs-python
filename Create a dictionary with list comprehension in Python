@@ -1,0 +1,5 @@
+
+data = [('sravan', 23), ('ojaswi', 15),('rohith', 8), ('gnanesh', 4), ('bobby', 20)]
+
+
+dict(data)
