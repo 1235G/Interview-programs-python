@@ -1,0 +1,11 @@
+
+def F(S):
+W = S.split(” “)
+for i in range(len(W)):
+W[i] = W[i].lower()
+W.sort()
+return ‘ ‘.join(W)
+
+
+S = input("enter the string")
+print(F(S))
