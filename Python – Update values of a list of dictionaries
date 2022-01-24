@@ -1,0 +1,12 @@
+
+data = [
+	{'name': 'sravan', 'subjects': ['java', 'python']},
+	{'name': 'bobby', 'subjects': ['c/cpp', 'java']},
+	{'name': 'ojsawi', 'subjects': ['iot', 'cloud']},
+	{'name': 'rohith', 'subjects': ['php', 'os']},
+	{'name': 'gnanesh', 'subjects': ['html', 'sql']}
+]
+
+print(data[0])
+
+data
