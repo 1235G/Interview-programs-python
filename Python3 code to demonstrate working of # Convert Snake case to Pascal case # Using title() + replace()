@@ -1,0 +1,6 @@
+test_str = input("enter the string")
+
+res = test_str.replace("_", " ").title().replace(" ", "")
+
+# printing result
+print("The String after changing case : " + str(res))
