@@ -1,0 +1,11 @@
+import re
+
+
+s = 'https://www.tamilrockers.org/'
+
+
+obj1 = re.findall('(\w+)://',s)
+print(obj1)
+
+obj2 = re.findall('://www.([\w\-\.]+)',s)
+print(obj2)
