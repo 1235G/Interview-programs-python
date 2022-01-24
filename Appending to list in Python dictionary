@@ -1,0 +1,6 @@
+Details = {}
+Details["Age"] = [20]
+
+if "Age" in Details:
+	Details["Age"].append("Twenty")
+	print(Details)
