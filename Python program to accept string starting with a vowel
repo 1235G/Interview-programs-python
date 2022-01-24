@@ -1,0 +1,12 @@
+import re
+
+string = input("enter the string")
+
+regex = '^[aeiouAEIOU][A-Za-z0-9_]*'
+
+
+
+if(re.search(regex, string)):
+    print("Valid")
+else:
+    print("Invalid")
