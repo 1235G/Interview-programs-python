@@ -1,0 +1,16 @@
+test_str = input("enter the string")
+
+
+
+
+
+a = {}
+for i in test_str:
+	if i in a:
+		a[i] += 1
+	else:
+		a[i] = 1
+res = max(all_freq, key = all_freq.get)
+
+
+print ("The maximum of all characters in GeeksforGeeks is : " + str(res))
