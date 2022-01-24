@@ -1,0 +1,10 @@
+
+my_list = [1, 2, 3, 1, 5, 4]
+
+
+list_size = len(my_list)
+
+
+for i in range(list_size):
+	if(my_list[i] == 1):
+          print(itr)
