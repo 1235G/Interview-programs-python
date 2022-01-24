@@ -1,0 +1,20 @@
+data = [
+	{'name': 'sravan', 'subjects': ['java', 'python']},
+	{'name': 'bobby', 'subjects': ['c/cpp', 'java']},
+	{'name': 'ojsawi', 'subjects': ['iot', 'cloud']},
+	{'name': 'rohith', 'subjects': ['php', 'os']},
+	{'name': 'gnanesh', 'subjects': ['html', 'sql']}
+
+]
+
+# display
+data
+
+
+dictionary_of_list = {}
+for item in data:
+	name = item['name']
+	dictionary_of_list[name] = item
+
+
+dictionary_of_list
