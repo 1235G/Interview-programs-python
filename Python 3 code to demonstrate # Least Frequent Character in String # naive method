@@ -1,0 +1,14 @@
+test_str = input("enter the string")
+
+
+
+a = {}
+for i in test_str:
+	if i in a:
+		a[i] += 1
+	else:
+		a[i] = 1
+res = min(a, key = a.get)
+
+# printing result
+print ("The minimum of all characters in GeeksforGeeks is : " + str(res))
