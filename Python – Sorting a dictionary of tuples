@@ -1,0 +1,14 @@
+
+data = {'student1': ('bhanu', 10), 'student4': ('uma', 12),'student3': ('suma', 11), 'student2': ('ravi', 11),'student5': ('gayatri', 9)}
+
+
+for i in sorted(data.items()):
+	print(i, end=" ")
+print()
+
+for i in sorted(data.values()):
+	print(i, end=" ")
+print()
+
+for i in sorted(data.keys()):
+	print(i, end=" ")
