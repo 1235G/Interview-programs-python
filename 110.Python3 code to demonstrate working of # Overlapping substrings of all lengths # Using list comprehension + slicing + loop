@@ -1,0 +1,12 @@
+
+
+
+test_str = input("enter the string")
+
+print("The original string is : " + str(test_str))
+
+res = []
+for idx in range(len(test_str) + 1):
+	res.append([test_str[j: j + idx] for j in range(len(test_str) - idx + 1)])
+
+print("All overlapping Strings : " + str(res))
