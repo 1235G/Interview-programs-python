@@ -1,0 +1,11 @@
+a = []
+b = []
+for i in range(1500,2700):
+    if i % 7 == 0:
+        a.append(i)
+        print("divible by 7")
+    elif i % 5 == 0:
+        b.append(i)
+        print("divible by 5")
+print(a)
+print(b)
