@@ -1,0 +1,14 @@
+
+test_list = input("enter the string")
+
+print("The original list is : " + str(test_list))
+
+res = ""
+max_len = 0
+for ele in test_list:
+
+	vow_len = len([el for el in ele if el in ['a', 'e', 'o', 'u', 'i']])
+	if vow_len > max_len:
+		max_len = vow_len
+		res = ele
+print("Maximum vowels word : " + str(res))
