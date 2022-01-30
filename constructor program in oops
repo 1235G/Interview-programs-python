@@ -1,0 +1,12 @@
+class student:
+
+	# default constructor
+	def __init__(self):
+		self.geek = "application"
+
+	def student1(self):
+		print(self.student1)
+
+obj = student
+
+obj.student()
