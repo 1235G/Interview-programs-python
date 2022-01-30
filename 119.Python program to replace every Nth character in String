@@ -1,0 +1,17 @@
+
+test_str = "geeksforgeeks is best for all geeks"
+
+
+print("The original string is : " + str(test_str))
+
+K = '$'
+
+N = 5
+
+res = ''
+for idx, ele in enumerate(test_str):
+	if idx % N == 0 and idx != 0:
+		res = res + K
+	else:
+		res = res + ele
+print("String after replacement : " + str(res))
