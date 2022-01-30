@@ -1,0 +1,9 @@
+l = [ 'hello', 'geek', 'have',
+	'a', 'geeky', 'day']
+
+ans = ' '
+for i in l:
+
+ans = ans+ ' '+i
+	
+print(ans)
