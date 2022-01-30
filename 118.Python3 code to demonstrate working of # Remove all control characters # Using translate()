@@ -1,0 +1,11 @@
+
+
+test_str = input("enter the string")
+
+# printing original string
+print("The original string is : " + str(test_str))
+
+mapping = dict.fromkeys(range(32))
+res = test_str.translate(mapping)
+
+print("String after removal of control characters : " + str(res))
