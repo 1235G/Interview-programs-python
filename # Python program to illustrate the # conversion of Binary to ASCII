@@ -1,0 +1,9 @@
+
+
+import binascii
+
+Text = input("enter the string")
+
+Ascii = binascii.b2a_uu(Text)
+
+print(Ascii)
